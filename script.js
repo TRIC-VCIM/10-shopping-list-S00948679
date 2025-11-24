@@ -19,6 +19,10 @@ function addItem(e) {
 
 // Event Listeners
 
-itemForm.addEventListener('submit', addItem);  // should false be added at the end of this? Ie: ('submit', addItem, false)?
+itemForm.addEventListener('submit', addItem,);  // should false be added at the end of this? Ie: ('submit', addItem, false)?
+// SM - no because false is the default value for the useCapture parameter
 
-// It wasn't long before I started just copying what he had. He moves very fast and this tutorial was very easy to get lost. I have started looking more into event delegation. 
+// It wasn't long before I started just copying what he had. He moves very fast and this tutorial was very easy to get lost. I have started looking more into event delegation.
+// SM - Thanks for your feedback; it really helps.
+// I am going to rethink using Brad's tutorials for now on. 
+// I think I need to find someone who explains things a bit slower and in more detail.
